@@ -17,8 +17,8 @@
     - CSS3
     - Flexbox
     - Grid
-    - JavaScript
     - БЭМ
+    - JavaScript
     - SASS
     - git
     - Photoshop/Figma
