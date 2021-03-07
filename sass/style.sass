@@ -1,0 +1,141 @@
+// colors
+
+$bcg: #232C39
+
+$text-white: #fff
+
+$text-dark: #3f3f3f
+
+$text-blue: #4269A3
+
+$grey: #C4C4C4
+
+$dark-grey: #a6a6a6
+
+//fonts settings
+
+@import _fonts.scss
+
+//interface settings
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+.center
+    margin: 0 auto
+    width: 847px
+    font-family: 'Helvetica Neue'
+    border-right: 1px solid $grey
+
+.flex
+    display: flex
+
+//header settings
+
+.header
+    width: 847px
+    align-items: center
+    &__info
+        width: 612px
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__title
+        padding: 0
+        margin: 0
+        +h1
+    &__subtitle
+        display: block
+        margin-top: 8px
+        +subtitle
+.photo
+    display: flex
+    justify-content: center    
+    width: 235px
+    padding-top: 30px
+    padding-bottom: 30px
+    background-color: $bcg
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.25);
+    &__image
+        border-radius: 50%
+
+//skills-info
+
+.skills-info
+    background-color: $bcg
+    width: 235px
+    padding-top: 32px
+    padding-left: 24px
+    padding-right: 24px
+    padding-bottom: 1px
+    // padding-bottom: 32px
+    +skills-text
+    &__title
+        margin-bottom: 24px
+        +h2-light
+
+.contacts
+    flex-direction: column
+    border-bottom: 1px solid #f3f3f3
+    &__item
+        display: flex
+        align-items: center
+        margin-bottom: 8px
+        list-style-type: none
+        &:last-child
+            margin-bottom: 24px
+    &__link
+        text-decoration: none
+        +skills-text
+    &-image
+        &__link
+            text-decoration: none
+            margin-right: 16px
+
+.hard-skills
+    border-bottom: 1px solid #f3f3f3
+    // padding-bottom: 16px
+    &__title
+        margin-top: 24px
+    &__item
+        list-style-type: none
+        margin-bottom: 8px
+        &:last-child
+            margin-bottom: 24px
+
+.soft-skills
+    margin-top: 24px
+    &__title
+    &__item
+        list-style-type: none
+        margin-bottom: 8px
+        &:last-child
+            margin-bottom: 24px
+
+.experience
+    &-info
+        width: 612px
+        padding-top: 8px
+        padding-left: 25px
+        padding-right: 25px
+    &__title
+        +h2-dark
+
+.education
+    &__name
+        &-title
+            display: block
+            margin-bottom: 24px
+            margin-top: 28px
+            +text-name
+        &-subtitle
+            +blue
+    &__period
+        display: block
+        margin-top: 8px
+        +grey
+
+.code
+    margin-top: 56px
