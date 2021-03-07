@@ -234,4 +234,40 @@
 .code {
   margin-top: 56px;
 }
+
+.code__open:focus {
+  outline: none;
+}
+
+.code__open:hover {
+  cursor: pointer;
+  color: #4269A3;
+}
+
+.code__example {
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a6a6a6;
+  color: #232C39;
+}
+
+.code__info {
+  margin-bottom: 15px;
+}
+
+.code__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.code__link:hover {
+  color: #4269A3;
+}
+
+.english {
+  margin-top: 56px;
+  margin-bottom: 50px;
+}
 /*# sourceMappingURL=style.css.map */

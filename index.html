@@ -37,10 +37,10 @@
                                     <a href="mailto:lexdarra@gmail.com" class="contacts__link">lexdarra@gmail.com</a>
                                 </li>
                                 <li class="contacts__item">
-                                    <span href="#" class="contacts-image__link">
+                                    <span class="contacts-image__link">
                                         <img src="assets/images/location-icon.svg" width="24" alt="location">
                                     </span>
-                                    <span href="#" class="contacts__link">Moscow, Russia</span>
+                                    <span class="contacts__link">Moscow, Russia</span>
                                 </li>
                                 <li class="contacts__item">
                                     <a href="https://github.com/weinist" class="contacts-image__link">
@@ -56,7 +56,7 @@
                             <li class="hard-skills__item">HTML5</li>
                             <li class="hard-skills__item">CSS3</li>
                             <li class="hard-skills__item">Flexbox/Grid</li>
-                            <li class="hard-skills__item">БЭМ</li>
+                            <li class="hard-skills__item">BEM</li>
                             <li class="hard-skills__item">JavaScript</li>
                             <li class="hard-skills__item">SCSS/SASS</li>
                             <li class="hard-skills__item">git</li>
@@ -66,9 +66,9 @@
                     <section class="soft-skills">
                         <h2 class="skills-info__title soft-skills__title">Soft skills</h2>
                         <ul class="soft-skills__list">
-                            <li class="soft-skills__item">blabla</li>
-                            <li class="soft-skills__item">blalllll</li>
-                            <li class="soft-skills__item">aaaaa</li>
+                            <li class="soft-skills__item">Communication/Teamwork</li>
+                            <li class="soft-skills__item">Time management</li>
+                            <li class="soft-skills__item">Responsibility</li>
                         </ul>
                     </section>
                 </div>
@@ -84,6 +84,42 @@
                     </section>
                     <section class="code">
                         <h2 class="experience__title code__title">Code examples</h2>
+                        <p class="code__info">You can see examples of my code in my 
+                            <a href="https://github.com/weinist" class="code__link">Github account</a>
+                        </p>
+                        <details>
+                            <summary class="code__open">
+                                Or you can see the 'Fizz Buzz' solving below.
+                            </summary>                    
+<pre>
+    <code class="code__example">
+    function fizzbuzz(n) {
+        let result = [];
+
+        for (let i = 0; i &lt; n; i++) {
+            result.push(i + 1);
+            if((result[i] % 3 === 0) && (result[i] % 5 === 0)) {
+                result[i] = 'FizzBuzz';
+            }
+            if(result[i] % 3 === 0) {
+                result[i] = 'Fizz';
+            }
+            if(result[i] % 5 === 0) {
+                result[i] = 'Buzz';
+            }
+        }
+        return result;
+    }
+    </code>
+</pre>               
+                        </details>
+                    </section>
+                    <section class="english">
+                        <h2 class="english__title experience__title">English</h2>
+                        <p class="english__info">
+                            I have passed IELTS Academic English with 5.5 score,
+                             which is the border between B1 and B2 English levels. 
+                        </p>
                     </section>
                 </div>
             </main>
