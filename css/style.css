@@ -33,14 +33,14 @@
 }
 
 .header {
-  width: 847px;
+  min-width: 847px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .header__info {
-  width: 612px;
+  min-width: 612px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,7 +184,7 @@
 }
 
 .experience-info {
-  width: 612px;
+  min-width: 612px;
   padding-top: 8px;
   padding-left: 25px;
   padding-right: 25px;
