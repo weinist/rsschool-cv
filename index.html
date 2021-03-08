@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Daria Trubnikova's CV</title>
+</head>
+<body>
+        <div class="center">
+            <header class="header flex">
+                <figure class="photo">
+                    <img src="assets/images/picture.jpg" class="photo__image" alt="Daria Trubnikova" width="120" height="120">
+                </figure>
+                <div class="header__info">
+                    <h1 class="header__title">Daria Trubnikova</h1>
+                    <span class="header__subtitle">Junior Frontend-developer</span>
+                </div>
+            </header>
+            <main class="flex">
+                <div class="skills-info">
+                    <section class="contacts flex">
+                        <h2 class="skills-info__title contacts__title">Contact me</h2>
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <a href="tel:+79854242920" class="contacts-image__link">
+                                        <img src="assets/images/phone-icon.svg" width="24" alt="phone">
+                                    </a>
+                                    <a href="tel:+79854242920" class="contacts__link">+7 (985) 424-29-20</a>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="mailto:lexdarra@gmail.com" class="contacts-image__link">
+                                        <img src="assets/images/email-icon.svg" width="24" alt="email">
+                                    </a>
+                                    <a href="mailto:lexdarra@gmail.com" class="contacts__link">lexdarra@gmail.com</a>
+                                </li>
+                                <li class="contacts__item">
+                                    <span class="contacts-image__link">
+                                        <img src="assets/images/location-icon.svg" width="24" alt="location">
+                                    </span>
+                                    <span class="contacts__link">Moscow, Russia</span>
+                                </li>
+                                <li class="contacts__item">
+                                    <a href="https://github.com/weinist" class="contacts-image__link">
+                                        <img src="assets/images/github-logo.svg" width="24" alt="github">
+                                    </a>
+                                    <a href="https://github.com/weinist" class="contacts__link">weinist</a>
+                                </li>
+                            </ul>
+                    </section>
+                    <section class="hard-skills">
+                        <h2 class="skills-info__title hard-skills__title">Hard skills</h2>
+                        <ul class="hard-skills__list">
+                            <li class="hard-skills__item">HTML5</li>
+                            <li class="hard-skills__item">CSS3</li>
+                            <li class="hard-skills__item">Flexbox/Grid</li>
+                            <li class="hard-skills__item">BEM</li>
+                            <li class="hard-skills__item">JavaScript</li>
+                            <li class="hard-skills__item">SCSS/SASS</li>
+                            <li class="hard-skills__item">git</li>
+                            <li class="hard-skills__item">Photoshop/Figma</li>
+                        </ul>
+                    </section>
+                    <section class="soft-skills">
+                        <h2 class="skills-info__title soft-skills__title">Soft skills</h2>
+                        <ul class="soft-skills__list">
+                            <li class="soft-skills__item">Communication/Teamwork</li>
+                            <li class="soft-skills__item">Time management</li>
+                            <li class="soft-skills__item">Responsibility</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="experience-info">
+                    <section class="education">
+                        <h2 class="education__title experience__title">Education</h2>
+                        <span class="education__name-title">National University of Science and Technology</span>
+                        <span class="education__name-subtitle">College of IT & Automated Control Systems</span>
+                        <span class="education__period">2015-2019</span>
+                        <span class="education__name-title">Rolling Scopes School</span>
+                        <span class="education__name-subtitle">Javascript/Front-end</span>
+                        <span class="education__period">2021-...</span>
+                    </section>
+                    <section class="code">
+                        <h2 class="experience__title code__title">Code examples</h2>
+                        <p class="code__info">You can see examples of my code in my 
+                            <a href="https://github.com/weinist" class="code__link">Github account</a>
+                        </p>
+                        <details>
+                            <summary class="code__open">
+                                Or you can see the 'Fizz Buzz' solving below.
+                            </summary>                    
+<pre>
+    <code class="code__example">
+    function fizzbuzz(n) {
+        let result = [];
+
+        for (let i = 0; i &lt; n; i++) {
+            result.push(i + 1);
+            if((result[i] % 3 === 0) && (result[i] % 5 === 0)) {
+                result[i] = 'FizzBuzz';
+            }
+            if(result[i] % 3 === 0) {
+                result[i] = 'Fizz';
+            }
+            if(result[i] % 5 === 0) {
+                result[i] = 'Buzz';
+            }
+        }
+        return result;
+    }
+    </code>
+</pre>               
+                        </details>
+                    </section>
+                    <section class="english">
+                        <h2 class="english__title experience__title">English</h2>
+                        <p class="english__info">
+                            I have passed IELTS Academic English with 5.5 score,
+                             which is the border between B1 and B2 English levels. 
+                        </p>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

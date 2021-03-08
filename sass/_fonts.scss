@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
+        url('/assets/fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('/assets/fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('/assets/fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Medium'), local('Helvetica-Neue-Medium'),
+        url('/assets/fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('/assets/fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('/assets/fonts/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@mixin h1 {
+    font-family: Helvetica Neue;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: $text-dark;
+}
+
+@mixin subtitle {
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $text-dark;
+}
+
+@mixin h2-dark {
+    margin-bottom: 24px;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $text-dark; 
+}
+
+@mixin h2-light {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $text-white;
+}
+
+@mixin skills-text {
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-white;
+}
+
+@mixin text-name {
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    color: $text-dark;
+}
+
+@mixin blue {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: $text-blue;
+}
+
+@mixin grey {
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark-grey;
+}
